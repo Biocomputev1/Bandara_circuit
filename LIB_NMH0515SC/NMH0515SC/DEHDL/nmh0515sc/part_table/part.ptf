@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NMH0515SC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "NMH0515SC" (!) = "", "NMH1215SC", "Other", "580-NMH0515SC", "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NMH0515SC?qs=73XVGzxLSDUkXka9Z2fVOQ%3D%3D", "Murata Power Solutions NMH 2W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout +/-15V dc", "https://power.murata.com/data/power/ncl/kdc_nmh.pdf", "10 mm"
+END_PART
+
+END.

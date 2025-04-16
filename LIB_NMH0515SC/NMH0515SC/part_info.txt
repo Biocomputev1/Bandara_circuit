@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=NMH0515SC
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2018-07-10 10:15:36
+Downloaded=2025-02-05 09:41:00
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NMH0515SC
+D Murata Power Solutions NMH 2W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout +/-15V dc
+K
+F https://power.murata.com/data/power/ncl/kdc_nmh.pdf
+$ENDCMP
+#
+#End Doc Library

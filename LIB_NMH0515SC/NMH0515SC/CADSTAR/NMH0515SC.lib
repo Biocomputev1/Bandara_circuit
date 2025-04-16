@@ -1,0 +1,16 @@
+.NMH0515SC :1 ;Murata Power Solutions NMH 2W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout +/-15V dc
+NMH1215SC
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="-VIN" 3="-VOUT" 4="OV" 5="+VOUT"
+*MXP 5
+*DFN NMH0515SC
+~!Mouser Part Number (580-NMH0515SC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NMH0515SC?qs=73XVGzxLSDUkXka9Z2fVOQ%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (NMH0515SC)
+~!Link Datasheet (https://power.murata.com/data/power/ncl/kdc_nmh.pdf)
+~!Height (10mm)
+~!3D_Model (NMH0515SC)
+NMH0515SC
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NUD0515E2K Library")(type "KiCad")(uri "${KIPRJMOD}/NUD0515E2K Library.kicad_sym")(options "")(descr ""))
+)

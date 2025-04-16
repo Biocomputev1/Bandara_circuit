@@ -1,0 +1,125 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NMH0515SC"
+   (description "Murata Power Solutions NMH 2W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout +/-15V dc")
+   (family "ANA")
+   (package "NMH1215SC")
+   (attribute "Datasheet Link" "https://power.murata.com/data/power/ncl/kdc_nmh.pdf")
+   (attribute "Geometry.Height" "10mm")
+   (attribute "Mouser Part Number" "580-NMH0515SC")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NMH0515SC?qs=73XVGzxLSDUkXka9Z2fVOQ%3D%3D")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "NMH0515SC")
+   (gate
+    (symbol "NMH0515SC")
+    (pin "+VIN" 1 PS)
+    (pin "-VIN" 2 PS)
+    (pin "-VOUT" 3 PS)
+    (pin "OV" 4 PS)
+    (pin "+VOUT" 5 PS)
+   )
+  )
+  (symbol "NMH0515SC"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NMH1215SC"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 0)
+      (pt 19.5 0)
+      (pt 19.5 -7.5)
+      (pt 0 -7.5)
+      (pt 0 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 19.5 -7.5)
+      (pt 0 -7.5)
+      (pt 0 0)
+      (pt 19.5 0)
+      (pt 19.5 -7.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 1.45)
+      (pt 20.5 1.45)
+      (pt 20.5 -8.5)
+      (pt -1 -8.5)
+      (pt -1 1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2 0.4)
+      (arc (pt 2.000 0.400) (pt 2.000 0.350) (pt 2.100 0.450) (start -180.0) (sweep 180.0))
+      (pt 2.1 0.4)
+      (arc (pt 2.100 0.400) (pt 2.000 0.350) (pt 2.100 0.450) (start -180.0) (sweep .0))
+      (pt 2 0.4))))
+   (leg 1 (pt 2.030 -1.225) (padstack 0))
+   (leg 2 (pt 4.570 -1.225) (padstack 0))
+   (leg 3 (pt 9.650 -1.225) (padstack 0))
+   (leg 4 (pt 12.190 -1.225) (padstack 0))
+   (leg 5 (pt 14.730 -1.225) (padstack 0))
+   (padstack 0
+    (hole 0.83)
+    (plated true)
+    (pad (layer TCOP) (round 1.349))
+    (pad (layer INNER) (round 1.349))
+    (pad (layer BCOP) (round 1.349))
+   )
+   (model "NMH0515SC.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
