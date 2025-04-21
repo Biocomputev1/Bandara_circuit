@@ -6410,7 +6410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_Pad1.25x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 95.25 53.6448 0)
 			(effects
 				(font
