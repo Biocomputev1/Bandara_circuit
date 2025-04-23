@@ -10,7 +10,7 @@ J1,Nanopore,~,bandara_ckt_footprints:PHOENIX_1935161,1,5
 "TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP17,TP18",TestPoint,~,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,18,90
 U1,MCP4725xxx-xCH,http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf,Package_TO_SOT_SMD:SOT-23-6,1,5
 U2,ADS1115IDGS,http://www.ti.com/lit/ds/symlink/ads1113.pdf,Package_SO:TSSOP-10_3x3mm_P0.5mm,1,5
-"U3,U5,U6",AD820,,bandara_ckt_footprints:N_8_ADI,3,15
+"U3,U5,U6",LM741,,bandara_ckt_footprints:N_8_ADI,3,15
 U4,Dual Power Supply,,NDU_SMD:NDU05,1,5
 ,,,,,
 COMPONENTS TO PROCURE,,,,,
